@@ -7,7 +7,7 @@ echo "Installing new Flipkartebook apk to device"
 adb install /Users/Moolya21/Downloads/buildwithid/EbookApp/ebook.apk
 echo "Going to Flipkartebook test project folder"
 cd /Users/Moolya21/FlipkartEbooks_Automation/digital-ebooks-tests/FunctionalTestAndroid/
-echo "Building the Flipkartebook test project"
+echo "Building the Flipkartebook"
 /usr/local/lib/gradle/bin/gradle clean assembleDebug
 echo "Installing new Flipkartebook test apk to device"
 adb install /Users/Moolya21/FlipkartEbooks_Automation/digital-ebooks-tests/FunctionalTestAndroid/build/apk/FunctionalTestAndroid-debug-unaligned.apk
