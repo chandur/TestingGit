@@ -15,4 +15,4 @@ echo "Checking list of insturmentation from device"
 adb shell pm list instrumentation
 echo "Starting the test cases"
 adb shell am instrument -w com.flipkart.fkreader.test/com.zutubi.android.junitreport.JUnitReportTestRunner
-echo "---END---"
+echo "---Stop---"
